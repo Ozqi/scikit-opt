@@ -36,7 +36,6 @@ sa_boltzmann = SABoltzmann(func=demo_func, x0=[1, 1, 1], T_max=1, T_min=1e-9, q=
 sa_boltzmann.run()
 print('Boltzmann Simulated Annealing: best_x is ', sa_boltzmann.best_x, 'best_y is ', sa_boltzmann.best_y)
 
-
 # %%
 from sko.SA import SABoltzmann
 
